@@ -37,7 +37,7 @@ import uuid
 #    2. Credentials file (~/.aws/credentials or
 #         C:\Users\USER_NAME\.aws\credentials)
 #    3. AWS IAM role for Amazon EC2 instance
-#       (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html)
+#   a    (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html)
 
 s3client = boto3.client('s3')
 
